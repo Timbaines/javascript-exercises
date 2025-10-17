@@ -28,7 +28,7 @@
 
 **Operators:** come into play when you want to work with variables, modify them, perform calculations and compare them.
 
-### Arithmatic Operators
+### Arithmetic Operators
 
 This type of operator is used to perform mathematical operations with numbers. These operations include basic mathematics that you are familiar with, such as addition, subtraction, multiplication, and division.
 
