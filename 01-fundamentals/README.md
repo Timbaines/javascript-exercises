@@ -32,6 +32,14 @@
 
 This type of operator is used to perform mathematical operations with numbers. These operations include basic mathematics that you are familiar with, such as addition, subtraction, multiplication, and division.
 
+1. Addition: use the + operator to add two numbers together.
+2. Subtraction: use the - operator to subtract one number from another.
+3. Multiplication: use the * operator to multiply two numbers together.
+4. Division: divide two numbers by using the / operator.
+5. Exponentiation: raising a certain base number to the power of the exponent using the ** operator.
+6. Modulus: this operation determines how much is left after dividing one number by another number. 
+
+
 
 
 
