@@ -32,14 +32,24 @@
 
 This type of operator is used to perform mathematical operations with numbers. These operations include basic mathematics that you are familiar with, such as addition, subtraction, multiplication, and division.
 
-1. Addition: use the + operator to add two numbers together.
-2. Subtraction: use the - operator to subtract one number from another.
-3. Multiplication: use the * operator to multiply two numbers together.
-4. Division: divide two numbers by using the / operator.
-5. Exponentiation: raising a certain base number to the power of the exponent using the ** operator.
-6. Modulus: this operation determines how much is left after dividing one number by another number. 
+1. **Addition:** use the `(+)` operator to add two numbers together.
+2. **Subtraction:** use the `(-)` operator to subtract one number from another.
+3. **Multiplication:** use the `(*)` operator to multiply two numbers together.
+4. **Division:** divide two numbers by using the `(/)` operator.
+5. **Exponentiation:** raising a certain base number to the power of the exponent using the `**` operator.
+6. **Modulus:** this operation determines how much is left after dividing one number by another number using the `(%)` operator..
+7. **Unary operators:** these are increment and decrement operators.
+   - **Operands** are subject to the operator. For example, the `(x++)` (we can read as x = x + 1) operator increments the value of the operand by 1 and the `(x--)` (we can read as x = x - 1) operator decrements the value of the operand by 1. 
 
+### Combining Operators
 
+| Name                              | Symbol  | Example             |
+|-----------------------------------|---------|---------------------|
+| Grouping                          | ( ... ) | (x + y)             |
+| Exponentiation                    | **      | x ** y              |
+| Prefix increment and decrement    | ++, --  | ++x, --y            |
+| Multiplication, division, modulus | *,/,%   | x * y, x / y, x % y |
+| Addition and subtraction          | +, -    | x + y, x - y        |
 
 
 
