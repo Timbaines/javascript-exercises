@@ -1,4 +1,5 @@
 // Operators come into play when you want to work with variables, modify them, perform calculations and compare them.
+// noinspection EqualityComparisonWithCoercionJS,JSIncompatibleTypesComparison
 
 // Arithmetic Operators
 
@@ -123,7 +124,7 @@ console.log(++tw4); // Output: 3
 // This example uses the mathematical order of operations to calculate the value of tw5 + tw6 * tw7. For multiplying
 // Uses 6 (prefix, 5 is incremented before multiplication)
 // 2 (postfix, 2 is incremented after the execution and will not affect the current calculation).
-// This comes down to 12 and the tw5 is the postfix operator and will execute after the addition.
+// This comes down to 12, and the tw5 is the postfix operator and will execute after the addition.
 // It adds 12 to 4 and becomes 16.
 let tw5 = 4;
 let tw6 = 5;
@@ -131,4 +132,38 @@ let tw7 = 2;
 
 console.log(tw5++ + ++tw6 * tw7++); // Output: 16
 
+// Comparison Operators (Equality Operators - Equal, Not Equal ,Loose Equality, Strict Equality, Strict Not Equal)
 
+// Equal
+let t = 10;
+let b = "10";
+
+// Equal: Loose Equality
+console.log(t == b); // Output: true
+
+// Equal: Strict Equality
+console.log(t === b); // Output: false
+
+// Not Equal
+let a = 9;
+let e = "9";
+
+console.log(a != e); // Output: false
+
+console.log(a !== e); // Output: true
+
+// Greater than and less than
+let x = 20;
+let y = 11;
+
+// x is greater than y
+console.log(x > y); // Output: true
+
+// y is smaller than x
+console.log(x < y); // Output: false
+
+// x is greater than or equal to y
+console.log(x >= y); // Output: true
+
+// y is smaller than or equal to x
+console.log(x <= y); // Output: false
