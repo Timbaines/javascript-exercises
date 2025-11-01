@@ -51,5 +51,26 @@ This type of operator is used to perform mathematical operations with numbers. T
 | Multiplication, division, modulus | *,/,%   | x * y, x / y, x % y |
 | Addition and subtraction          | +, -    | x + y, x - y        |
 
+### Comparison Operators
+
+Comparison operators are different from arithmetic operators and the outcome is always a Boolean, true or false.
+
+**1. Equal:**
+- The equal operator `==` and `===` performs a type conversion and then compares the values. The `===` triple operator will evaluate both the value and the data type to determine if both sides are equal or not.
+
+**2. Not Equal:**
+- The not equal operator `!=` and `!==` is similar to the equal operator except it does the opposite. It returns true when the two variables are not equal, and false when they are equal.
+
+**3. Greater Than:**
+- The greater than operator `>` compares two values and returns true if the left value is greater than the right value.
+
+**4. Less Than:**
+- The smaller than operator `<` compares two values and returns true if the left value is smaller than the right value.
+
+**5. Greater Than or Equal To**
+- The greater than or equal to operator `>=` compares two values and returns true if the left value is greater than or equal to the right value.
+
+**6. Less Than or Equal To**
+- The smaller than or equal to operator `<=` compares two values and returns true if the left value is smaller than or equal to the right value.
 
 
