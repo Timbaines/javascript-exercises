@@ -32,7 +32,7 @@ javascript-exercises/
 ```bash
 01-fundamentals/
 ├── Variables & Data Types ✅
-├── Operators
+├── Operators ✅
 ├── Conditionals
 ├── Loops
 └── Functions
