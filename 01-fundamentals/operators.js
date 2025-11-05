@@ -2,7 +2,7 @@
 // noinspection EqualityComparisonWithCoercionJS,JSIncompatibleTypesComparison
 
 // Arithmetic Operators
-
+///////////////////////////////////////////////////
 let tb1 = 20;
 let tb2 = 4;
 
@@ -10,7 +10,7 @@ let result1 = tb1 + tb2;
 console.log(result1); // Output: 24
 
 // String Concatenation
-
+///////////////////////////////////////////////////
 let str1 = "What up ";
 let str2 = "addition";
 
@@ -18,7 +18,7 @@ let result2 = str1 + str2;
 console.log(result2); // Output: What up addition
 
 // Practice with Operators and string concatenation (age, name)
-
+///////////////////////////////////////////////////
 let name = "Tim";
 let age = 44;
 
@@ -33,7 +33,7 @@ let result3WithBool = result3 + " = Student: " + isStudent;
 console.log(result3WithBool); // Output: My name is Tim, I am 44 years old and learning to code JavaScript = Student: true
 
 // Subtraction Operators
-
+///////////////////////////////////////////////////
 let tb3 = 44;
 let tb4 = 23;
 
@@ -50,7 +50,7 @@ let result6 = str3 - tb7;
 console.log(result5, result6); // Output: 36 NaN
 
 // Multiplication Operators
-
+///////////////////////////////////////////////////
 let tb8 = 44;
 let tb9 = 14;
 let str4 = "Hello";
@@ -61,7 +61,7 @@ let result8 = str4 * tb10;
 console.log(result7, result8); // Output 616 NaN
 
 // Division Operators
-
+///////////////////////////////////////////////////
 let tb11 = 44;
 let tb12 = 11;
 let result9 = tb11 / tb12;
@@ -69,7 +69,7 @@ let result9 = tb11 / tb12;
 console.log(result9); // Output: 4
 
 // Exponential Operators
-
+///////////////////////////////////////////////////
 let sb1 = 44;
 let sb2 = 3;
 let result10 = sb1 ** sb2;
@@ -77,6 +77,7 @@ let result10 = sb1 ** sb2;
 console.log(result10); // Output: 85184
 
 // Modulus Operator
+///////////////////////////////////////////////////
 // example 1:
 let sb3 = 11;
 let sb4 = 4;
@@ -97,7 +98,7 @@ let result13 = sb7 % sb8;
 console.log(`${sb7} % ${sb8} = ${result13}`); // Output: 21 % 6 = 3
 
 // Unary Operators (increment and decrement)
-
+///////////////////////////////////////////////////
 // Increment Operator
 let tw1 = 5;
 tw1++;
@@ -133,7 +134,7 @@ let tw7 = 2;
 console.log(tw5++ + ++tw6 * tw7++); // Output: 16
 
 // Comparison Operators (Equality Operators - Equal, Not Equal ,Loose Equality, Strict Equality, Strict Not Equal)
-
+///////////////////////////////////////////////////
 // Equal
 let t = 10;
 let b = "10";
@@ -167,3 +168,39 @@ console.log(x >= y); // Output: true
 
 // y is smaller than or equal to x
 console.log(x <= y); // Output: false
+
+// Logical Operators (AND, OR, NOT)
+///////////////////////////////////////////////////
+
+// Logical Operator: AND //
+
+let at = 1;
+let bt = 2;
+let ct = 3;
+
+// Since 'at' is smaller than the 'bt' and the 'bt' is smaller than the ct, this will return true
+console.log(at < bt && bt < ct); // Output: true
+
+// Since 'at' is not greater than the 'bt', one part of the expression is false, so this will return false
+console.log(at > b && bt < ct); // Output: false
+
+// Logical Operator: OR //
+
+// Since 'at' is smaller than the 'bt' or the 'bt' is smaller than the 'ct', this will return true
+console.log(at > bt || bt < ct); // Output: true
+
+// Since 'at' is not greater than the 'bt' or the 'bt' is not greater than the 'ct', this will return false
+console.log(at > bt || bt > ct); // Output: false
+
+// Logical Operator: NOT //
+
+let j = false;
+
+// This will log true since and will flip the boolean value to true
+console.log(!j); // Output: true
+
+let d = 1;
+let h = 2;
+
+// This will log false since the boolean value of 'd' is true and the boolean value of 'h' is false
+console.log(!(d < h)); // Output: false
