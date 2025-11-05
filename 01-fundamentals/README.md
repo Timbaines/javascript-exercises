@@ -73,4 +73,15 @@ Comparison operators are different from arithmetic operators and the outcome is 
 **6. Less Than or Equal To**
 - The smaller than or equal to operator `<=` compares two values and returns true if the left value is smaller than or equal to the right value.
 
+### Logical Operators
 
+Logical operators are used to check two conditions in one or negate a condition. You can use and, or, and not.
+
+**1. And:**
+- The and operator `&&` returns true if both conditions are true.
+
+**2. Or:**
+- The or operator `||` returns true if one of the conditions is true.
+
+**3. Not:**
+- The not operator `!` returns true if the condition is false.
