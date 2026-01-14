@@ -33,7 +33,7 @@ javascript-exercises/
 01-fundamentals/
 ├── Variables & Data Types ✅
 ├── Operators ✅
-├── Conditionals
+├── Conditional Statements
 ├── Loops
 └── Functions
 ```
