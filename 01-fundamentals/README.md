@@ -85,3 +85,15 @@ Logical operators are used to check two conditions in one or negate a condition.
 
 **3. Not:**
 - The not operator `!` returns true if the condition is false.
+
+## Conditional Statements
+
+Conditional statements are used to make decisions based on the outcome of a condition.
+
+### 1. if and if else statements
+
+- The if statement is used to execute a block of code if a condition is true. The if else statement is used to execute a block of code if a condition is true, and another block of code if the condition is false.
+
+### 2. else if statements
+
+- The else if statement is used to execute a block of code if a condition is true, and another block of code if the condition is false. It is used to check multiple conditions in a sequence.
